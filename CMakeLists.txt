@@ -21,8 +21,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/CurrentJoints.msg"
   "msg/Joint.msg"
   "msg/SetJoints.msg"
-  "msg/SetTorques.msg"
-  "srv/GetJoints.srv")
+  "msg/SetTorques.msg")
 
 ament_export_dependencies(rosidl_default_runtime)
 ament_package()
