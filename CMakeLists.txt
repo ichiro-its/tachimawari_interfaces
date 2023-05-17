@@ -20,6 +20,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ControlJoints.msg"
   "msg/CurrentJoints.msg"
   "msg/Joint.msg"
+  "msg/Packet.msg"
   "msg/SetJoints.msg"
   "msg/SetTorques.msg"
   "msg/Status.msg")
