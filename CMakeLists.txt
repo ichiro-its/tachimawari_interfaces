@@ -19,7 +19,9 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ControlJoints.msg"
   "msg/CurrentJoints.msg"
+  "msg/CurrentJointsTelemetry.msg"
   "msg/Joint.msg"
+  "msg/JointTelemetry.msg"
   "msg/Packet.msg"
   "msg/SetJoints.msg"
   "msg/SetTorques.msg"
